@@ -246,7 +246,9 @@ main {
 .sparkle-c { bottom: 29px; left: 69px; color: #8cece6; font-size: 15px; animation-delay: -.6s; }
 .sparkle-d { top: 51px; right: 82px; font-size: 32px; color: #ff9fcf; }
 @keyframes sparkle-drift { to { transform: translateY(-9px) rotate(18deg); opacity: .42; } }
-.scroll-hint { display: flex; align-items: center; gap: 9px; margin-top: 31px; color: #878098; font-size: 8px; letter-spacing: .16em; }
+.hero-prompts { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 24px; }
+.audio-tip { max-width: 310px; margin: 0; color: #b4a9c7; font-size: 8px; line-height: 1.7; letter-spacing: .12em; }
+.scroll-hint { display: flex; align-items: center; gap: 9px; color: #878098; font-size: 8px; letter-spacing: .16em; }
 .scroll-hint svg { animation: arrow-bob 1.5s ease-in-out infinite; }
 @keyframes arrow-bob { 50% { transform: translateY(4px); } }
 
@@ -411,6 +413,7 @@ main {
   .surprise-hub { width: min(100% - 34px, 1000px); }
   .hero h1 { font-size: clamp(1.8rem, 8vw, 2.3rem); letter-spacing: .07em; }
   .hero-subtitle { max-width: 260px; font-size: 12px; line-height: 1.65; }
+  .audio-tip { max-width: 280px; font-size: 7px; }
   .hero-kicker { gap: 8px; font-size: 7px; letter-spacing: .14em; }
   .hero-kicker > span { width: 16px; }
   .gift-stage { width: min(100%, 340px); height: 220px; }

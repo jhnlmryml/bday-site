@@ -326,11 +326,14 @@ function App() {
             </motion.div>
 
             <motion.div
-              className="scroll-hint"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 0.6 }}
-              transition={{ delay: 1.2 }}
-            >SOMETHING LOVELY IS WAITING</motion.div>
+              className="hero-prompts"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.05, duration: 0.6 }}
+            >
+              <p className="audio-tip">TURN OFF SILENT MODE &amp; TURN UP VOLUME</p>
+              <div className="scroll-hint">SOMETHING LOVELY IS WAITING</div>
+            </motion.div>
           </motion.section>
         )}
       </AnimatePresence>
