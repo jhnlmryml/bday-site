@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+*.local
+
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db
